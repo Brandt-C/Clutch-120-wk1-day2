@@ -1,0 +1,31 @@
+.container {
+border: 2px solid darkgray;
+margin-bottom: 15px;
+}
+.container1 {
+    border: 2px solid darkgray;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2 {
+    border: 2px solid darkgray;
+margin-bottom: 15px;
+}
+
+.item {
+    padding: 15px;
+    flex-grow: 3;
+
+    min-width: 20px;
+}
+p {
+    background-color: bisque;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+}
+#icon {
+    min-width: 50px;
+font-size: xx-large;
+}
